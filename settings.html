@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/settings">Settings</a></li>
+        </ul>
+    </nav>
+    <h1>Settings</h1>
+    <form id="settings-form">
+        <label for="prefix">Command Prefix:</label>
+        <input type="text" id="prefix" name="prefix" required>
+        <button type="submit">Save Settings</button>
+    </form>
+    <script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+</body>
+</html>
