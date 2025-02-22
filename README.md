@@ -10,10 +10,10 @@ We have spent months creating the website. Our team is only 5 people! We are loo
 
 ---
 
-#📑 Terms Of Use
+## 📑 Terms Of Use
 ▪No raid bots. Creating any bots that raid servers is highly illegal.
 ▪No scam bots. Creating any scam bot for Discord. Will result in a ban.
 ▪No NSFW bots. Creating NSFW bots is not allowed VIA discord's terms of use.
 ---
-#❗Tip!
+## ❗Tip!
 ▪Staff will not ask for your password! It's stored in our database!
