@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Maker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Create Your Discord Bot</h1>
+    <form id="bot-form">
+        <label for="bot_name">Bot Name:</label>
+        <input type="text" id="bot_name" name="bot_name" required>
+        <label for="token">Bot Token:</label>
+        <input type="text" id="token" name="token" required>
+        <button type="submit">Create Bot</button>
+    </form>
+    <pre id="bot-code"></pre>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
