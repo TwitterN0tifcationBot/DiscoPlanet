@@ -8,5 +8,9 @@ app.register_blueprint(bot_blueprint)
 def index():
     return render_template('index.html')
 
+@app.route('/settings')
+def settings():
+    return render_template('settings.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
